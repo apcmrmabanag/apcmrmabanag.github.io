@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'gothamBold';
+  src: url(GothamBold.ttf);
+}
+
+@font-face {
+  font-family: 'gothamLight';
+  src: url(GothamLight.ttf);
+}
+
+@font-face {
+  font-family: 'gothamMedium';
+  src: url(GothamMedium.ttf);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f2f2ff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #bfbfbf;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgb(100, 100, 100);
+}
+
+html {
+  color: #222;
+  line-height: 1.4;
+}
+
+#body{
+  height: 5000px;
+}
+
+p{
+  margin: 0;
+}
+
+#mypic{
+  position: fixed;
+  top: 1.5vw;
+  left: 1.5vw;
+  height: 3vw;
+  width: 3vw;
+  z-index: 99;
+}
+
+#name{
+  position: fixed;
+  top: 2vw;
+  left: 6vw;
+  font-family: 'GothamBold';
+  font-size: 1.5vw;
+  z-index: 99;
+  letter-spacing: -1px;
+}
+
+#menu{
+  position: fixed;
+  top: 1.5vw;
+  right: 1vw;
+  font-family: 'GothamBold';
+  font-size: 1.5vw;
+  z-index: 99;
+}
+
+#menubtn{
+  letter-spacing: -2px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  overflow: hidden;
+  /* Same as before */
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(100, 100, 100) 50%, rgb(0, 0, 0) 50%);
+  /* Same as before */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  /* Same as before */
+  transition: background-position 275ms ease;
+}
+
+#menubtn:hover {
+  background-position: 0 100%;
+}
+
+#menubn:active {
+  color: #BFBFBF;
+}
+
+#aboutme {
+  position: relative;
+  margin-top: 15vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  font-family: 'GothamMedium';
+  text-align: center;
+  font-size: 2vw;
+  letter-spacing: -3px;
+  z-index: 1;
+}
+
+#intro{
+  font-family: 'gothamLight';
+  color: #BFBFBF;
+  font-size: 1.2vw;
+  letter-spacing: 3px;
+  margin-bottom: 1vw;
+}
+
+#parallax{
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  z-index: -1;
+}
+
+#developer{
+  font-family: 'gothamBold';
+  font-size: 15vw;
+  text-align: center;
+  color: #F2F2F2;
+}
+
+#footer{
+  position: fixed;
+  left: 1.5vw;
+  bottom: 1vw;
+  z-index: 99;
+}
+
+.fb{
+  width: 2vw;
+}
+
+.ig{
+  width: 1.3vw;
+}
+
+.twt{
+  width: 1.4vw;
+  margin-left: 1vw;
+}
+
+.gm{
+  width: 2vw;
+  margin-left: .5vw;
+}
+
+.ll{
+  width: 1.7vw;
+}
+
+#myworks{
+  margin-top: 10vw auto 0;
+}
+
+#myworksTable{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.works {
+  margin: 3vw;
+  width: 30vw;
+  height: 40vw;
+  background-color: #dfdfdf;
+}
