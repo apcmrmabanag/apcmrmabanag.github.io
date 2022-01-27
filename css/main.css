@@ -177,3 +177,9 @@ p{
   height: 40vw;
   background-color: #dfdfdf;
 }
+
+.javascript {
+  width: 20%;
+  height: auto;
+  margin: auto;
+}
